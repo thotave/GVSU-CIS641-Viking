@@ -120,26 +120,29 @@ Non-functional requirement section provides a user expectation and applies to wh
 This section will describe a change management plan for Employee Management System. It will focus on training users, platform availability, performance and issue handling process.
 
 ## How will you train people to use EMS system?
-1. ...
-2.  ... 
-3.  ...
-4.  
+1. Provide a comprehensive overview of the system: Explain the purpose of the system, its features, and how it can benefit the organization. 
+2. Demonstrate how to use the system: Show users how to navigate the system, enter data, and access reports. 
+3. Provide hands-on practice: Allow users to practice using the system in a safe environment. 
+4. Offer support: Make sure users have access to help when they need it.
 
 
 ## How Employee Management system will you ensure it integrates within their ecosystem / software?
-1. ... 
-2.  ...
-3.   ...
-4.  ...
-5.  ...
-6.  ...
+1. Identify the existing software and systems that the company is currently using and determine how the employee management system will need to integrate with them. 
+2. Develop an integration plan that outlines the steps needed to integrate the employee management system with the existing software and systems. 
+3. Create an API that will allow the employee management system to communicate with the existing software and systems. 
+4. Test the integration to ensure that the employee management system is working properly with the existing
 
 
 ## How Employee Management system will you ensure that it any discovered issues are resolved?
-1. ... 
-2.  ... 
-3.  ...
-4.  ...
+•	Establish a process for reporting and tracking issues: Establish a process for employees to report any issues they discover with the system. 
+•	This process should include a way to track the issue, assign it to the appropriate team member, and provide updates on the progress of the resolution. 
+•	And a designated contact person or team to receive and respond to reports. 
+•	Create a timeline for resolution: Establish a timeline for resolving any issues that are reported. This timeline should include a deadline for when the issue should be resolved and a plan for how the work should be finished.
+•	Monitor system performance: Monitor the performance of the system on a regular basis to identify any potential issues.
+•	The best way to ensure that any issues that are discovered in an Employee Management System are resolved is to have a comprehensive bug tracking system in place. 
+•	This system should include a way to track reported bugs, prioritize them, assign responsible parties, and track their resolution.
+•	 Additionally, regular audits of the system should be conducted to detect and resolve any issues that arise. 
+•	Finally, providing employee feedback systems and regular customer satisfaction surveys can help to identify potential issues before they become major problems.
 
 # Traceability links
 
