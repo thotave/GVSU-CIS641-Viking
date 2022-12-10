@@ -14,7 +14,7 @@ Non-functional requirement section provides a user expectation and applies to wh
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR1 | Upon completion of page loading, the welcome screen shall display sign-inscreen and sign-up button for sign-up.|
-| FR2 |  Sign-up screen shall be displayed when the user presses the sign-up button. |
+| FR2 | Sign-up screen shall be displayed when the user presses the sign-up button. |
 | FR3 | For sign-in user have to up the user detail (email and password)  |
 | FR4 | Admin shall be able to login using email and password |
 
@@ -22,20 +22,20 @@ Non-functional requirement section provides a user expectation and applies to wh
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| FR5 | Sign-up screen shall be displayed when the user presses the sign-up button |
+| FR5 | Sign-up screen shall be displayed when the user clicks the sign-up button |
 | FR6 | After clicking on sign up option, page should display the options of name, email , phone number, home address, password to fill |
-| FR7 | users details shall be captured  |
-| FR8 | Sign-up form inputs shall be validated when the user presses submit button |
+| FR7 | user details shall be captured  |
+| FR8 | Sign-up form inputs shall be validated when the user clicks submit button |
 
 
 ### Upload documents:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| FR9 | When users successfully login into the system there will be an option to upload your documents. |
-| FR10 |  When users clicks on upload the document button a new page will be open. |
-| FR11 | In new page the will be document upload control and a field named as document tittle. |
-| FR12 | When user selects files and enters title then users will be ab le to upload the doc in the system. |
+| FR9 | When user successfully login into the system there will be an option to upload your documents. |
+| FR10 | When user clicks on upload the document button a new page will be open. |
+| FR11 | In new page there will be document upload control and a field named as document tittle. |
+| FR12 | When user selects files and enters title then users will be able to upload the doc in the system. |
 | FR13| After validation document will be uploaded and success message will appear. |
 
 ### Attendance Management:
@@ -43,8 +43,8 @@ Non-functional requirement section provides a user expectation and applies to wh
 | ID | Requirement|
 | :-------------: | :----------: |
 | FR14 | When users successfully login into the system his/her attendance shall automatically marked and entry time shall be recorded into the system |
-| FR15 | There shall be a button to take break and when user clicks on this button the break start time shall record. |
-| FR16 | There shall be a button to resume work and when user clicks on this button the break end time shall record.|
+| FR15 | There shall be a button to take break and when user clicks on this button the time for break shall record. |
+| FR16 | There shall be a button to resume work and when user clicks on this button the end time of break shall record.|
 | FR17 | When user clicks on logout button the shift shall be ended|
 | FR18 | Number of hours worked shall be recorded after shift is ended|
 
@@ -78,7 +78,7 @@ Non-functional requirement section provides a user expectation and applies to wh
 | ID | Requirement|
 | :-------------: | :----------: |
 | NFR7 | Application shall be up and running unitruptly until it is closed. |
-| NFR8 | User shall be able to access the login page within 5 second of application started |
+| NFR8 | User shall be able to access the login page within minimal time of application started |
 | NFR9 | All the documents saved by the user shall be stored in the backend of S# bucket |
 | NFR10 | After successful login, users email address, password, name , phone shall be stored in AsyncStorage. |
 
@@ -97,11 +97,11 @@ Non-functional requirement section provides a user expectation and applies to wh
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR16 | User's personal data shall be stored in database in encrypted format. |
+| NFR16 | User's personal data shall be stored in database in an encrypted format. |
 | NFR17 | Unsuccessful login of user shall be recorded and audited. |
-| NFR18 | User data shall not be shared with any other party. |
+| NFR18 | User data shall not be shared with any other third party servers. |
 | NFR19 | The source coding shall follow secure coding practices. |
-| NFR20 | User's password shall be stored in encrypted format |
+| NFR20 | User's credentials shall be stored in an encrypted format |
 | NFR21 | System shall not crashed after continuously running for more than 24 hours |
 
 
@@ -110,39 +110,39 @@ Non-functional requirement section provides a user expectation and applies to wh
 | ID | Requirement|
 | :-------------: | :----------: |
 | NFR22 |The system shall be capable of handling multiple users at a time. |
-| NFR23 | System shall upload the documents within 2 seconds |
+| NFR23 | System shall upload the documents within minimal time |
 | NFR24 | System shall provide high performance to it's users|
-| NFR25 | System shall be provide all the functionalities without app getting freezed |
+| NFR25 | System shall be able to provide all the functionalities without application getting crashed |
 | NFR26 | Backend server shall be running until system is closed. |
 
 # Change management plan
 
-This section will describe a change management plan for Employee Management System. It will focus on training users, platform availability, performance and issue handling process.
+This section will describe a change management plan for Employee Management System. It will focus on training users, platform availability, performance and issues handling and resolving process.
 
 ## How will you train people to use EMS system?
-1. Provide a comprehensive overview of the system: Explain the purpose of the system, its features, and how it can benefit the organization. 
-2. Demonstrate how to use the system: Show users how to navigate the system, enter data, and access reports. 
-3. Provide hands-on practice: Allow users to practice using the system in a safe environment. 
-4. Offer support: Make sure users have access to help when they need it.
+1. **Provide a comprehensive overview of the system:** Explain the purpose and importance of the system for an organization, its features, how secured it is and how it can benefit the organization. 
+2. **Demonstrate how to use the system:** Show users how to use and navigate the system, enter data, and access reports. 
+3. **Provide hands-on practice:** Allow users to practice using the system in a safe environment. 
+4. **Offer support:** Make sure users have access to help when they need it.
 
 
 ## How Employee Management system will you ensure it integrates within their ecosystem / software?
-1. Identify the existing software and systems that the company is currently using and determine how the employee management system will need to integrate with them. 
+1. Identify the existing software and systems that the company is currently using and determine how the employee management system will be helpful and need to integrate with them. 
 2. Develop an integration plan that outlines the steps needed to integrate the employee management system with the existing software and systems. 
 3. Create an API that will allow the employee management system to communicate with the existing software and systems. 
-4. Test the integration to ensure that the employee management system is working properly with the existing
+4. Test the integration to ensure that the employee management system is working properly with the existing.
 
 
 ## How Employee Management system will you ensure that it any discovered issues are resolved?
-•	Establish a process for reporting and tracking issues: Establish a process for employees to report any issues they discover with the system. 
-•	This process should include a way to track the issue, assign it to the appropriate team member, and provide updates on the progress of the resolution. 
-•	And a designated contact person or team to receive and respond to reports. 
-•	Create a timeline for resolution: Establish a timeline for resolving any issues that are reported. This timeline should include a deadline for when the issue should be resolved and a plan for how the work should be finished.
-•	Monitor system performance: Monitor the performance of the system on a regular basis to identify any potential issues.
-•	The best way to ensure that any issues that are discovered in an Employee Management System are resolved is to have a comprehensive bug tracking system in place. 
-•	This system should include a way to track reported bugs, prioritize them, assign responsible parties, and track their resolution.
-•	 Additionally, regular audits of the system should be conducted to detect and resolve any issues that arise. 
-•	Finally, providing employee feedback systems and regular customer satisfaction surveys can help to identify potential issues before they become major problems.
+* **Monitor system performance:** Monitor the performance of the system on a regular basis to identify any potential issues.
+* **Establish a process for reporting and tracking issues:** Establish a process for employees to report any issues they discover with the system. 
+* This process should include a way to track the issue, assign it to the appropriate support team, and provide updates on the progress of the resolution. 
+* A designated contact person or team receives it and respond to reports. 
+* **Create a timeline for resolution:** Establish a timeline for resolving any issues that are reported. This timeline should include a deadline and details about how the work can be finished and when the issue can be resolved.
+* The best way to ensure that any issues that are discovered in an Employee Management System are resolved is to have a comprehensive bug tracking system in place. 
+* This system should include a way to track reported bugs, prioritize them, assign responsible parties, and track their resolution.
+* Additionally, regular audits of the system should be conducted to detect and resolve any issues that arise. 
+* Finally, providing employee feedback systems and regular customer satisfaction surveys can help to identify the issues and get them resolved.
 
 # Traceability links
 
