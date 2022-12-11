@@ -14,51 +14,54 @@ Non-functional requirement section provides a user expectation and applies to wh
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR1 | Upon completion of page loading, the welcome screen shall display sign-inscreen and sign-up button for sign-up.|
-| FR2 | Sign-up screen shall be displayed when the user presses the sign-up button. |
-| FR3 | For sign-in user have to up the user detail (email and password)  |
-| FR4 | Admin shall be able to login using email and password |
+| FR2 | For sign-in, user need to have the user detail (email and password). |
+| FR3 | User sign-in shall be failed if he gives wrong information.  |
+| FR4 | User email address shall be unique. |
+| FR5 | User shall be given choice of recovering account if he forget password. |
+| FR6 | Admin shall be able to login using email and password. |
 
 ### Sign Up/User Registration:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| FR5 | Sign-up screen shall be displayed when the user clicks the sign-up button |
-| FR6 | After clicking on sign up option, page should display the options of name, email , phone number, home address, password to fill |
-| FR7 | user details shall be captured  |
-| FR8 | Sign-up form inputs shall be validated when the user clicks submit button |
+| FR7 | Sign-up screen shall be displayed when the user clicks the sign-up button. |
+| FR8 | After clicking on sign up option, page should display the options of name, email address , phone number, home address, date of birth and password to fill. |
+| FR9 | User details shall be captured.  |
+| FR10 | Error should be thrown if a invalid data is given.  |
+| FR11 | Sign-up form inputs shall be validated when the user clicks submit button. |
 
 
 ### Upload documents:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| FR9 | When user successfully login into the system there will be an option to upload your documents. |
-| FR10 | When user clicks on upload the document button a new page will be open. |
-| FR11 | In new page there will be document upload control and a field named as document tittle. |
-| FR12 | When user selects files and enters title then users will be able to upload the doc in the system. |
-| FR13| After validation document will be uploaded and success message will appear. |
+| FR12 | When user successfully login into the system there will be an option to upload your documents. |
+| FR13 | When user clicks on upload the document button a new page will be open. |
+| FR14 | In new page there will be document upload control and a field named as document tittle. |
+| FR15 | When user selects files and enters title then users will be able to upload the doc in the system. |
+| FR16 | After validation document will be uploaded and success message will appear. |
 
 ### Attendance Management:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| FR14 | When users successfully login into the system his/her attendance shall automatically marked and entry time shall be recorded into the system |
-| FR15 | There shall be a button to take break and when user clicks on this button the time for break shall record. |
-| FR16 | There shall be a button to resume work and when user clicks on this button the end time of break shall record.|
-| FR17 | When user clicks on logout button the shift shall be ended|
-| FR18 | Number of hours worked shall be recorded after shift is ended|
+| FR17 | When users successfully login into the system his/her attendance shall automatically marked and entry time shall be recorded into the system |
+| FR18 | There shall be a button to take break and when user clicks on this button the time for break shall record. |
+| FR19 | There shall be a button to resume work and when user clicks on this button the end time of break shall record.|
+| FR20 | When user clicks on logout button the shift shall be ended|
+| FR21 | Number of hours worked shall be recorded after shift is ended|
 
 ### Operational Requirements:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| FR19 | After successful login, dashboard shall appear |
-| FR20 | There shall be an option to upload the documents. |
-| FR21 | There shall be an option to take break/ resume work |
-| FR22 | There shall be an option to check her current week hours and salary |
-| FR23 | Admin shall be able to view all the employees name |
-| FR24 | Admin shall be able edit employees details |
-| FR25 | Admin shall be able to view employees details like work hours, break taken |
+| FR22 | After successful login, dashboard shall appear |
+| FR23 | There shall be an option to upload the documents. |
+| FR24 | There shall be an option to take break/ resume work |
+| FR25 | There shall be an option to check her current week hours and salary |
+| FR26 | Admin shall be able to view all the employees name |
+| FR27 | Admin shall be able edit employees details |
+| FR28 | Admin shall be able to view employees details like work hours, break taken |
 
 ## Non-Functional Requirements
 
@@ -70,40 +73,39 @@ Non-functional requirement section provides a user expectation and applies to wh
 | NFR2 | All users should have document in pdf format |
 | NFR3 | The size of all documents should be small. |
 | NFR4 | User shallnot be able to edit the time of his/her shift. |
-| NFR5 | All the webpages shall have a responsive outlook |
-| NFR6 | The quality of webpages shall be constant while navigating through pages  |
+| NFR5 | <Non-Functional Requirement 1> |
+| NFR6 | <Non-Functional Requirement 2> |
 
 ### Availability:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR7 | Application shall be up and running uninterruptedly until it is closed. |
+| NFR7 | Application shall be up and running unitruptly until it is closed. |
 | NFR8 | User shall be able to access the login page within minimal time of application started |
 | NFR9 | All the documents saved by the user shall be stored in the backend of S# bucket |
 | NFR10 | After successful login, users email address, password, name , phone shall be stored in AsyncStorage. |
-| NFR11 | Application shall be accessed from anypart of the world.  |
 
 
 ### Operational Requirement:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR12 | Application shall be installed or run on both operating systems -Windows, Linux |
-| NFR13 | The system front end UI shall be created using Angular JS |
-| NFR14 | System shall be build using Angular CLI |
-| NFR15 | Application Shall store user's data in MongoDb |
-| NFR16 | Application Shall store user's pdf documents in amazon S3 bucket|
+| NFR11 | Application shall be installed or run on both operating systems -Windows, Linux |
+| NFR12 | The system front end UI shall be created using Angular JS |
+| NFR13 | System shall be build using Angular CLI |
+| NFR14 | Application Shall store user's data in MongoDb |
+| NFR15 | Application Shall store user's pdf documents in amazon S3 bucket|
 
 ###  Security:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR17 | User's personal data shall be stored in database in an encrypted format. |
-| NFR18 | Unsuccessful login of user shall be recorded and audited. |
-| NFR19 | User data shall not be shared with any other third party servers. |
-| NFR20 | The source coding shall follow secure coding practices. |
-| NFR21 | User's credentials shall be stored in an encrypted format |
-| NFR22 | System shall not crashed after continuously running for more than 24 hours |
+| NFR16 | User's personal data shall be stored in database in an encrypted format. |
+| NFR17 | Unsuccessful login of user shall be recorded and audited. |
+| NFR18 | User data shall not be shared with any other third party servers. |
+| NFR19 | The source coding shall follow secure coding practices. |
+| NFR20 | User's credentials shall be stored in an encrypted format |
+| NFR21 | System shall not crashed after continuously running for more than 24 hours |
 
 
 ### Performance:
@@ -153,8 +155,8 @@ This section represents relationship between requirements and other project arti
 
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :------------: |
-|1| [Sign In/Login](https://github.com/thotave/GVSU-CIS641-Vikings/blob/master/artifacts/User%20Case%20diagrams.pdf) | FR1,FR2, FR3, FR4, FR5|
-|2| [Registration](https://github.com/thotave/GVSU-CIS641-Vikings/blob/master/artifacts/User%20Case%20diagrams.pdf) | FR6,FR7, FR8, FR9, FR10|
+|1| [Sign In/Login](https://github.com/thotave/GVSU-CIS641-Vikings/blob/master/artifacts/User%20Case%20diagrams.pdf) | FR1,FR2, FR3, FR4, FR5, FR6, FR7|
+|2| [Registration](https://github.com/thotave/GVSU-CIS641-Vikings/blob/master/artifacts/User%20Case%20diagrams.pdf) |  FR8, FR9, FR10, FR11|
 |3|[Use Case DEscription](https://github.com/thotave/GVSU-CIS641-Vikings/blob/master/artifacts/Use%20case%20Description.pdf) | NFR7, NFR10 |
 
 
