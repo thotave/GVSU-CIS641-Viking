@@ -70,39 +70,40 @@ Non-functional requirement section provides a user expectation and applies to wh
 | NFR2 | All users should have document in pdf format |
 | NFR3 | The size of all documents should be small. |
 | NFR4 | User shallnot be able to edit the time of his/her shift. |
-| NFR5 | <Non-Functional Requirement 1> |
-| NFR6 | <Non-Functional Requirement 2> |
+| NFR5 | All the webpages shall have a responsive outlook |
+| NFR6 | The quality of webpages shall be constant while navigating through pages  |
 
 ### Availability:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR7 | Application shall be up and running unitruptly until it is closed. |
+| NFR7 | Application shall be up and running uninterruptedly until it is closed. |
 | NFR8 | User shall be able to access the login page within minimal time of application started |
 | NFR9 | All the documents saved by the user shall be stored in the backend of S# bucket |
 | NFR10 | After successful login, users email address, password, name , phone shall be stored in AsyncStorage. |
+| NFR11 | Application shall be accessed from anypart of the world.  |
 
 
 ### Operational Requirement:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR11 | Application shall be installed or run on both operating systems -Windows, Linux |
-| NFR12 | The system front end UI shall be created using Angular JS |
-| NFR13 | System shall be build using Angular CLI |
-| NFR14 | Application Shall store user's data in MongoDb |
-| NFR15 | Application Shall store user's pdf documents in amazon S3 bucket|
+| NFR12 | Application shall be installed or run on both operating systems -Windows, Linux |
+| NFR13 | The system front end UI shall be created using Angular JS |
+| NFR14 | System shall be build using Angular CLI |
+| NFR15 | Application Shall store user's data in MongoDb |
+| NFR16 | Application Shall store user's pdf documents in amazon S3 bucket|
 
 ###  Security:
 
 | ID | Requirement|
 | :-------------: | :----------: |
-| NFR16 | User's personal data shall be stored in database in an encrypted format. |
-| NFR17 | Unsuccessful login of user shall be recorded and audited. |
-| NFR18 | User data shall not be shared with any other third party servers. |
-| NFR19 | The source coding shall follow secure coding practices. |
-| NFR20 | User's credentials shall be stored in an encrypted format |
-| NFR21 | System shall not crashed after continuously running for more than 24 hours |
+| NFR17 | User's personal data shall be stored in database in an encrypted format. |
+| NFR18 | Unsuccessful login of user shall be recorded and audited. |
+| NFR19 | User data shall not be shared with any other third party servers. |
+| NFR20 | The source coding shall follow secure coding practices. |
+| NFR21 | User's credentials shall be stored in an encrypted format |
+| NFR22 | System shall not crashed after continuously running for more than 24 hours |
 
 
 ### Performance:
